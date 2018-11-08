@@ -1,0 +1,20 @@
+PODS:
+  - RevealingSplashView (0.5.0)
+  - SVProgressHUD (2.2.5)
+
+DEPENDENCIES:
+  - RevealingSplashView
+  - SVProgressHUD
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - RevealingSplashView
+    - SVProgressHUD
+
+SPEC CHECKSUMS:
+  RevealingSplashView: 0794eecad3a8983ac11a1fe474e9a9b51b926780
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+
+PODFILE CHECKSUM: 684c3d64913cad79547952cdc0b8c4c366f8c938
+
+COCOAPODS: 1.5.0

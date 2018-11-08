@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		452DA19B219386670076BB65 /* RoundedToggleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452DA19A219386670076BB65 /* RoundedToggleButton.swift */; };
+		45302D8C218A388100AA6F01 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45302D8B218A388100AA6F01 /* AppDelegate.swift */; };
+		45302D91218A388100AA6F01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45302D8F218A388100AA6F01 /* Main.storyboard */; };
+		45302D94218A388100AA6F01 /* Ketchup.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 45302D92218A388100AA6F01 /* Ketchup.xcdatamodeld */; };
+		45302D96218A388100AA6F01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45302D95218A388100AA6F01 /* Assets.xcassets */; };
+		45302D99218A388100AA6F01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45302D97218A388100AA6F01 /* LaunchScreen.storyboard */; };
+		45302DA1218A3F8300AA6F01 /* Colors+UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45302DA0218A3F8300AA6F01 /* Colors+UIColorExtension.swift */; };
+		45302DA5218A446400AA6F01 /* GoldenBorderedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45302DA4218A446400AA6F01 /* GoldenBorderedView.swift */; };
+		45302DA7218A4B1900AA6F01 /* LandingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45302DA6218A4B1900AA6F01 /* LandingVC.swift */; };
+		45302DAB218A4C7C00AA6F01 /* ChatOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45302DAA218A4C7C00AA6F01 /* ChatOption.swift */; };
+		45302DAE218A4CD600AA6F01 /* ChatOptionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45302DAD218A4CD600AA6F01 /* ChatOptionController.swift */; };
+		45302DB1218A4E0200AA6F01 /* OptionTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45302DB0218A4E0200AA6F01 /* OptionTVCell.swift */; };
+		45302DB3218A5B0100AA6F01 /* CircularImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45302DB2218A5B0100AA6F01 /* CircularImageView.swift */; };
+		45302DB5218A5C0500AA6F01 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45302DB4218A5C0500AA6F01 /* ProfileVC.swift */; };
+		45302DB7218A676900AA6F01 /* ProfileTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45302DB6218A676900AA6F01 /* ProfileTVCell.swift */; };
+		45302DB9218A688800AA6F01 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45302DB8218A688800AA6F01 /* Contact.swift */; };
+		45302DBB218A690A00AA6F01 /* ContactController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45302DBA218A690A00AA6F01 /* ContactController.swift */; };
+		45302DBF218A7A0700AA6F01 /* FindContactsTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45302DBE218A7A0700AA6F01 /* FindContactsTVCell.swift */; };
+		45302DC1218A7E8900AA6F01 /* CircularButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45302DC0218A7E8900AA6F01 /* CircularButton.swift */; };
+		45302DC3218A7FDA00AA6F01 /* GoldenBorderImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45302DC2218A7FDA00AA6F01 /* GoldenBorderImageView.swift */; };
+		45302DC5218A803400AA6F01 /* VideoChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45302DC4218A803400AA6F01 /* VideoChatVC.swift */; };
+		45302DE5218B6EB800AA6F01 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45302DE4218B6EB800AA6F01 /* User.swift */; };
+		45302DE7218B6FC800AA6F01 /* UserController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45302DE6218B6FC800AA6F01 /* UserController.swift */; };
+		454879D82190E7FA003C2DD7 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454879D72190E7FA003C2DD7 /* RoundedButton.swift */; };
+		454879DA2190EF8A003C2DD7 /* AddContactsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454879D92190EF8A003C2DD7 /* AddContactsCell.swift */; };
+		454879DC2190F023003C2DD7 /* AddContactsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454879DB2190F023003C2DD7 /* AddContactsVC.swift */; };
+		454879DE2190FF86003C2DD7 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454879DD2190FF86003C2DD7 /* CoreDataStack.swift */; };
+		454879E021910047003C2DD7 /* Contact+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454879DF21910047003C2DD7 /* Contact+Convenience.swift */; };
+		454879E4219126F9003C2DD7 /* User+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454879E3219126F9003C2DD7 /* User+Convenience.swift */; };
+		AAEF9F7578CC48A4154AE872 /* Pods_Ketchup.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71DBDC7519167D624862AE5E /* Pods_Ketchup.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		452DA19A219386670076BB65 /* RoundedToggleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedToggleButton.swift; sourceTree = "<group>"; };
+		45302D88218A388100AA6F01 /* Ketchup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ketchup.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		45302D8B218A388100AA6F01 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		45302D90218A388100AA6F01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		45302D93218A388100AA6F01 /* Ketchup.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Ketchup.xcdatamodel; sourceTree = "<group>"; };
+		45302D95218A388100AA6F01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		45302D98218A388100AA6F01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		45302D9A218A388100AA6F01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45302DA0218A3F8300AA6F01 /* Colors+UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Colors+UIColorExtension.swift"; sourceTree = "<group>"; };
+		45302DA4218A446400AA6F01 /* GoldenBorderedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoldenBorderedView.swift; sourceTree = "<group>"; };
+		45302DA6218A4B1900AA6F01 /* LandingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingVC.swift; sourceTree = "<group>"; };
+		45302DAA218A4C7C00AA6F01 /* ChatOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatOption.swift; sourceTree = "<group>"; };
+		45302DAD218A4CD600AA6F01 /* ChatOptionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatOptionController.swift; sourceTree = "<group>"; };
+		45302DB0218A4E0200AA6F01 /* OptionTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionTVCell.swift; sourceTree = "<group>"; };
+		45302DB2218A5B0100AA6F01 /* CircularImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularImageView.swift; sourceTree = "<group>"; };
+		45302DB4218A5C0500AA6F01 /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		45302DB6218A676900AA6F01 /* ProfileTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTVCell.swift; sourceTree = "<group>"; };
+		45302DB8218A688800AA6F01 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		45302DBA218A690A00AA6F01 /* ContactController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactController.swift; sourceTree = "<group>"; };
+		45302DBE218A7A0700AA6F01 /* FindContactsTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindContactsTVCell.swift; sourceTree = "<group>"; };
+		45302DC0218A7E8900AA6F01 /* CircularButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularButton.swift; sourceTree = "<group>"; };
+		45302DC2218A7FDA00AA6F01 /* GoldenBorderImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoldenBorderImageView.swift; sourceTree = "<group>"; };
+		45302DC4218A803400AA6F01 /* VideoChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoChatVC.swift; sourceTree = "<group>"; };
+		45302DE4218B6EB800AA6F01 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		45302DE6218B6FC800AA6F01 /* UserController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserController.swift; sourceTree = "<group>"; };
+		454879D72190E7FA003C2DD7 /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
+		454879D92190EF8A003C2DD7 /* AddContactsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddContactsCell.swift; sourceTree = "<group>"; };
+		454879DB2190F023003C2DD7 /* AddContactsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddContactsVC.swift; sourceTree = "<group>"; };
+		454879DD2190FF86003C2DD7 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		454879DF21910047003C2DD7 /* Contact+Convenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Contact+Convenience.swift"; sourceTree = "<group>"; };
+		454879E3219126F9003C2DD7 /* User+Convenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+Convenience.swift"; sourceTree = "<group>"; };
+		71DBDC7519167D624862AE5E /* Pods_Ketchup.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ketchup.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		789C50C576D87F650A36828D /* Pods-Ketchup.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ketchup.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Ketchup/Pods-Ketchup.debug.xcconfig"; sourceTree = "<group>"; };
+		EBFD31A68D00F68DC81DDED0 /* Pods-Ketchup.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ketchup.release.xcconfig"; path = "Pods/Target Support Files/Pods-Ketchup/Pods-Ketchup.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		45302D85218A388100AA6F01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAEF9F7578CC48A4154AE872 /* Pods_Ketchup.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		45302D7F218A388100AA6F01 = {
+			isa = PBXGroup;
+			children = (
+				45302D8A218A388100AA6F01 /* Ketchup */,
+				45302D89218A388100AA6F01 /* Products */,
+				A8E5CF4DDB5F315A17613F16 /* Pods */,
+				C9B70508D8B2B3A07A106B4C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		45302D89218A388100AA6F01 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				45302D88218A388100AA6F01 /* Ketchup.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		45302D8A218A388100AA6F01 /* Ketchup */ = {
+			isa = PBXGroup;
+			children = (
+				45302D8B218A388100AA6F01 /* AppDelegate.swift */,
+				45302D8F218A388100AA6F01 /* Main.storyboard */,
+				45302D95218A388100AA6F01 /* Assets.xcassets */,
+				45302D97218A388100AA6F01 /* LaunchScreen.storyboard */,
+				45302D9A218A388100AA6F01 /* Info.plist */,
+				45302D92218A388100AA6F01 /* Ketchup.xcdatamodeld */,
+				45302DA9218A4BF600AA6F01 /* Views+Extensions */,
+				45302DA8218A4BE200AA6F01 /* ViewControllers */,
+				45302DAC218A4C8100AA6F01 /* Models */,
+				45302DAF218A4CDA00AA6F01 /* Controllers */,
+			);
+			path = Ketchup;
+			sourceTree = "<group>";
+		};
+		45302DA8218A4BE200AA6F01 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				45302DA6218A4B1900AA6F01 /* LandingVC.swift */,
+				45302DB4218A5C0500AA6F01 /* ProfileVC.swift */,
+				45302DC4218A803400AA6F01 /* VideoChatVC.swift */,
+				454879DB2190F023003C2DD7 /* AddContactsVC.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		45302DA9218A4BF600AA6F01 /* Views+Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				45302DA0218A3F8300AA6F01 /* Colors+UIColorExtension.swift */,
+				45302DA4218A446400AA6F01 /* GoldenBorderedView.swift */,
+				45302DB0218A4E0200AA6F01 /* OptionTVCell.swift */,
+				45302DB2218A5B0100AA6F01 /* CircularImageView.swift */,
+				45302DB6218A676900AA6F01 /* ProfileTVCell.swift */,
+				45302DBE218A7A0700AA6F01 /* FindContactsTVCell.swift */,
+				45302DC0218A7E8900AA6F01 /* CircularButton.swift */,
+				45302DC2218A7FDA00AA6F01 /* GoldenBorderImageView.swift */,
+				454879D72190E7FA003C2DD7 /* RoundedButton.swift */,
+				454879D92190EF8A003C2DD7 /* AddContactsCell.swift */,
+				452DA19A219386670076BB65 /* RoundedToggleButton.swift */,
+			);
+			path = "Views+Extensions";
+			sourceTree = "<group>";
+		};
+		45302DAC218A4C8100AA6F01 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				45302DAA218A4C7C00AA6F01 /* ChatOption.swift */,
+				45302DB8218A688800AA6F01 /* Contact.swift */,
+				45302DE4218B6EB800AA6F01 /* User.swift */,
+				454879DD2190FF86003C2DD7 /* CoreDataStack.swift */,
+				454879DF21910047003C2DD7 /* Contact+Convenience.swift */,
+				454879E3219126F9003C2DD7 /* User+Convenience.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		45302DAF218A4CDA00AA6F01 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				45302DAD218A4CD600AA6F01 /* ChatOptionController.swift */,
+				45302DBA218A690A00AA6F01 /* ContactController.swift */,
+				45302DE6218B6FC800AA6F01 /* UserController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A8E5CF4DDB5F315A17613F16 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				789C50C576D87F650A36828D /* Pods-Ketchup.debug.xcconfig */,
+				EBFD31A68D00F68DC81DDED0 /* Pods-Ketchup.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C9B70508D8B2B3A07A106B4C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				71DBDC7519167D624862AE5E /* Pods_Ketchup.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		45302D87218A388100AA6F01 /* Ketchup */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45302D9D218A388100AA6F01 /* Build configuration list for PBXNativeTarget "Ketchup" */;
+			buildPhases = (
+				FDB8F267CBC3A63DC4408137 /* [CP] Check Pods Manifest.lock */,
+				45302D84218A388100AA6F01 /* Sources */,
+				45302D85218A388100AA6F01 /* Frameworks */,
+				45302D86218A388100AA6F01 /* Resources */,
+				97A4BDE1209729A05000C240 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ketchup;
+			productName = Ketchup;
+			productReference = 45302D88218A388100AA6F01 /* Ketchup.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		45302D80218A388100AA6F01 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Markus Varner";
+				TargetAttributes = {
+					45302D87218A388100AA6F01 = {
+						CreatedOnToolsVersion = 10.0;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 45302D83218A388100AA6F01 /* Build configuration list for PBXProject "Ketchup" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 45302D7F218A388100AA6F01;
+			productRefGroup = 45302D89218A388100AA6F01 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				45302D87218A388100AA6F01 /* Ketchup */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		45302D86218A388100AA6F01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45302D99218A388100AA6F01 /* LaunchScreen.storyboard in Resources */,
+				45302D96218A388100AA6F01 /* Assets.xcassets in Resources */,
+				45302D91218A388100AA6F01 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		97A4BDE1209729A05000C240 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Ketchup/Pods-Ketchup-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RevealingSplashView/RevealingSplashView.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RevealingSplashView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Ketchup/Pods-Ketchup-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FDB8F267CBC3A63DC4408137 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Ketchup-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		45302D84218A388100AA6F01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45302DC1218A7E8900AA6F01 /* CircularButton.swift in Sources */,
+				454879DE2190FF86003C2DD7 /* CoreDataStack.swift in Sources */,
+				45302DB9218A688800AA6F01 /* Contact.swift in Sources */,
+				45302DE7218B6FC800AA6F01 /* UserController.swift in Sources */,
+				45302DBB218A690A00AA6F01 /* ContactController.swift in Sources */,
+				454879DA2190EF8A003C2DD7 /* AddContactsCell.swift in Sources */,
+				45302DC3218A7FDA00AA6F01 /* GoldenBorderImageView.swift in Sources */,
+				45302DC5218A803400AA6F01 /* VideoChatVC.swift in Sources */,
+				454879E021910047003C2DD7 /* Contact+Convenience.swift in Sources */,
+				45302DB5218A5C0500AA6F01 /* ProfileVC.swift in Sources */,
+				45302DB1218A4E0200AA6F01 /* OptionTVCell.swift in Sources */,
+				45302DB3218A5B0100AA6F01 /* CircularImageView.swift in Sources */,
+				45302D94218A388100AA6F01 /* Ketchup.xcdatamodeld in Sources */,
+				45302DA7218A4B1900AA6F01 /* LandingVC.swift in Sources */,
+				454879E4219126F9003C2DD7 /* User+Convenience.swift in Sources */,
+				452DA19B219386670076BB65 /* RoundedToggleButton.swift in Sources */,
+				454879D82190E7FA003C2DD7 /* RoundedButton.swift in Sources */,
+				454879DC2190F023003C2DD7 /* AddContactsVC.swift in Sources */,
+				45302DAB218A4C7C00AA6F01 /* ChatOption.swift in Sources */,
+				45302D8C218A388100AA6F01 /* AppDelegate.swift in Sources */,
+				45302DA5218A446400AA6F01 /* GoldenBorderedView.swift in Sources */,
+				45302DBF218A7A0700AA6F01 /* FindContactsTVCell.swift in Sources */,
+				45302DA1218A3F8300AA6F01 /* Colors+UIColorExtension.swift in Sources */,
+				45302DAE218A4CD600AA6F01 /* ChatOptionController.swift in Sources */,
+				45302DB7218A676900AA6F01 /* ProfileTVCell.swift in Sources */,
+				45302DE5218B6EB800AA6F01 /* User.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		45302D8F218A388100AA6F01 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45302D90218A388100AA6F01 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		45302D97218A388100AA6F01 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45302D98218A388100AA6F01 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		45302D9B218A388100AA6F01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		45302D9C218A388100AA6F01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		45302D9E218A388100AA6F01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 789C50C576D87F650A36828D /* Pods-Ketchup.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S3K462NKF6;
+				INFOPLIST_FILE = Ketchup/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.MarkusVarner.Ketchup;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		45302D9F218A388100AA6F01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBFD31A68D00F68DC81DDED0 /* Pods-Ketchup.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S3K462NKF6;
+				INFOPLIST_FILE = Ketchup/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.MarkusVarner.Ketchup;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		45302D83218A388100AA6F01 /* Build configuration list for PBXProject "Ketchup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45302D9B218A388100AA6F01 /* Debug */,
+				45302D9C218A388100AA6F01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45302D9D218A388100AA6F01 /* Build configuration list for PBXNativeTarget "Ketchup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45302D9E218A388100AA6F01 /* Debug */,
+				45302D9F218A388100AA6F01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		45302D92218A388100AA6F01 /* Ketchup.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				45302D93218A388100AA6F01 /* Ketchup.xcdatamodel */,
+			);
+			currentVersion = 45302D93218A388100AA6F01 /* Ketchup.xcdatamodel */;
+			path = Ketchup.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 45302D80218A388100AA6F01 /* Project object */;
+}
