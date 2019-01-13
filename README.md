@@ -1,18 +1,16 @@
 # Ketchup! - A Video Chat App
 A Video Chat Roulette styled app, that integrates a users Contacts, and FaceTime. Backed with CoreData
+
+![alt text](https://github.com/markyvarna/Ketchup-/blob/master/KetchupLogo1.png)
+![alt text](https://github.com/markyvarna/Ketchup-/blob/master/Screen%20Shot%202018-12-07%20at%2012.29.50%20AM.png)
+![alt text](https://github.com/markyvarna/Ketchup-/blob/master/2.jpg)
+![alt text](https://github.com/markyvarna/Ketchup-/blob/master/3.jpg)
 <h1>Tech Stack</h1>
   
 Tech Stack | iOS
 ---------- | ---------
 Swift      | CoreData
 Facetime   | Voice Calls
-  
-  
-  <h1>Screenshots</h1>
-![alt text](https://github.com/markyvarna/Ketchup-/blob/master/KetchupLogo1.png)
-![alt text](https://github.com/markyvarna/Ketchup-/blob/master/Screen%20Shot%202018-12-07%20at%2012.29.50%20AM.png)
-![alt text](https://github.com/markyvarna/Ketchup-/blob/master/2.jpg)
-![alt text](https://github.com/markyvarna/Ketchup-/blob/master/3.jpg)
 
 
 <h1>Privacy Policy</h1>
